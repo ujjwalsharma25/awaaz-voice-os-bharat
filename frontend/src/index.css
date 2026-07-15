@@ -1,0 +1,177 @@
+@import "tailwindcss";
+
+/* ── Custom CSS Variables ─────────────────────────────────── */
+:root {
+  --bg:       #060D1F;
+  --bg2:      #0A1128;
+  --card:     #0F1A35;
+  --card2:    #142040;
+  --border:   #1E3060;
+  --cyan:     #00D4FF;
+  --cyan2:    #0099CC;
+  --green:    #00FF88;
+  --purple:   #A855F7;
+  --gold:     #FFD700;
+  --red:      #FF4757;
+  --muted:    #6B7FA3;
+  --white:    #FFFFFF;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: #fff;
+  font-family: "Segoe UI", system-ui, Arial, sans-serif;
+  min-height: 100dvh;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* ── Gradient backgrounds ──────────────────────────────────── */
+.bg-premium {
+  background:
+    radial-gradient(ellipse 80% 50% at 10% 20%, rgba(0,212,255,0.07) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 90% 80%, rgba(168,85,247,0.06) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 60% at 50% 50%, rgba(0,255,136,0.03) 0%, transparent 70%),
+    var(--bg);
+}
+
+/* ── Glass card ────────────────────────────────────────────── */
+.glass {
+  background: rgba(15, 26, 53, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(30, 48, 96, 0.8);
+  border-radius: 20px;
+}
+
+.glass-light {
+  background: rgba(20, 32, 64, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 212, 255, 0.12);
+  border-radius: 16px;
+}
+
+/* ── Gradient buttons ──────────────────────────────────────── */
+.btn-primary {
+  background: linear-gradient(135deg, #00D4FF 0%, #A855F7 100%);
+  border-radius: 14px;
+  font-weight: 700;
+  color: white;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 24px rgba(0,212,255,0.25);
+}
+.btn-primary:hover  { transform: translateY(-1px); box-shadow: 0 8px 32px rgba(0,212,255,0.35); }
+.btn-primary:active { transform: scale(0.97); }
+
+.btn-secondary {
+  background: rgba(30, 48, 96, 0.8);
+  border: 1px solid rgba(0,212,255,0.25);
+  border-radius: 14px;
+  font-weight: 600;
+  color: #00D4FF;
+  transition: all 0.2s ease;
+}
+.btn-secondary:hover { background: rgba(0,212,255,0.1); }
+
+/* ── Mic animations ────────────────────────────────────────── */
+@keyframes mic-pulse-1 {
+  0%,100% { transform: scale(1);   opacity: 0.6; }
+  50%     { transform: scale(1.5); opacity: 0;   }
+}
+@keyframes mic-pulse-2 {
+  0%,100% { transform: scale(1);   opacity: 0.4; }
+  50%     { transform: scale(1.9); opacity: 0;   }
+}
+@keyframes mic-pulse-3 {
+  0%,100% { transform: scale(1);   opacity: 0.2; }
+  50%     { transform: scale(2.4); opacity: 0;   }
+}
+.mic-ring-1 { animation: mic-pulse-1 1.4s ease-out infinite; }
+.mic-ring-2 { animation: mic-pulse-2 1.4s ease-out 0.25s infinite; }
+.mic-ring-3 { animation: mic-pulse-3 1.4s ease-out 0.5s infinite; }
+
+/* ── Waveform ──────────────────────────────────────────────── */
+@keyframes wave-bar {
+  0%,100% { height: 4px;  }
+  50%     { height: 32px; }
+}
+.wave-bar { animation: wave-bar 0.7s ease-in-out infinite; border-radius: 4px; }
+.wave-bar:nth-child(1) { animation-delay: 0.0s; }
+.wave-bar:nth-child(2) { animation-delay: 0.1s; }
+.wave-bar:nth-child(3) { animation-delay: 0.2s; }
+.wave-bar:nth-child(4) { animation-delay: 0.3s; }
+.wave-bar:nth-child(5) { animation-delay: 0.2s; }
+.wave-bar:nth-child(6) { animation-delay: 0.1s; }
+.wave-bar:nth-child(7) { animation-delay: 0.0s; }
+
+/* ── Form field animation ──────────────────────────────────── */
+@keyframes fill-in {
+  0%   { opacity: 0; transform: translateX(-12px); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+.field-fill { animation: fill-in 0.4s ease forwards; }
+
+/* ── Slide up ──────────────────────────────────────────────── */
+@keyframes slide-up {
+  0%   { opacity: 0; transform: translateY(24px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+.slide-up { animation: slide-up 0.45s ease forwards; }
+
+/* ── Fade in ───────────────────────────────────────────────── */
+@keyframes fade-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.fade-in { animation: fade-in 0.3s ease forwards; }
+
+/* ── Shimmer loading ───────────────────────────────────────── */
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position:  200% center; }
+}
+.shimmer {
+  background: linear-gradient(90deg, #0F1A35 25%, #1E3060 50%, #0F1A35 75%);
+  background-size: 200% auto;
+  animation: shimmer 1.5s infinite;
+}
+
+/* ── OTP digit box ─────────────────────────────────────────── */
+.otp-digit {
+  width: 56px; height: 64px;
+  border: 2px solid var(--border);
+  border-radius: 14px;
+  background: var(--card);
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--cyan);
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.3s ease;
+}
+.otp-digit.active {
+  border-color: var(--cyan);
+  box-shadow: 0 0 0 3px rgba(0,212,255,0.2), 0 0 20px rgba(0,212,255,0.15);
+}
+
+/* ── Glow effects ──────────────────────────────────────────── */
+.glow-cyan   { box-shadow: 0 0 24px rgba(0,212,255,0.3);  }
+.glow-green  { box-shadow: 0 0 24px rgba(0,255,136,0.3);  }
+.glow-purple { box-shadow: 0 0 24px rgba(168,85,247,0.3); }
+
+/* ── Scrollbar ─────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #1E3060; border-radius: 2px; }
+
+/* ── Status badge ──────────────────────────────────────────── */
+.status-dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+
+/* ── Gradient text ─────────────────────────────────────────── */
+.gradient-text {
+  background: linear-gradient(135deg, #00D4FF, #A855F7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
