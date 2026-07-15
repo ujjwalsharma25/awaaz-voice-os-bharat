@@ -15,7 +15,7 @@
 git clone <your-github-repo-url>        # recommended — push from your own laptop before the event
 # OR unzip the file you brought on a USB drive
 
-cd awaaz-link-update
+cd awaaz
 
 # 2. Install everything (backend + frontend)
 npm run install:all
@@ -443,12 +443,13 @@ Same status-tracking + SMS follow-up pipeline as above
 
 ## 👥 Team Vision Coders
 
-| Name           | Role          | Email |
-|----------------|---------------|-------|
-| Ujjwal Sharma  | Team Lead     | *add-email@example.com* |
-| Aastha Kaushik | Backend Dev   | *add-email@example.com* |
-| Shubham        | Frontend Dev  | *add-email@example.com* |
-| Nishant        | UI/UX Design  | *add-email@example.com* |
+|     Name       |    Role       |            Email                    |
+|----------------|---------------|-------------------------------------|
+| Ujjwal Sharma  | Team Lead     | ujjwal.sharma.cse.2024@miet.ac.in   |
+| Aastha Kaushik | Backend Dev   | aastha.kaushik.cse.2024@miet.ac.in  |
+| Shubham        | Backend Dev   | shubham.kumar.cseiot.2023@miet.ac.in|
+| Nishant        | Frontend Dev  | nishant.kumar.cse.2024@miet.ac.in   |
+| Aanya          | UI/UX Design  | aanya.malik.cse.2024@miet.ac.in     |
 
 > ⚠️ Submission rule requires each dev's email in the README — fill in the real ones before submitting the repo link.
 
