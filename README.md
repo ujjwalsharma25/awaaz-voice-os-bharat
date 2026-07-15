@@ -451,7 +451,6 @@ Same status-tracking + SMS follow-up pipeline as above
 | Nishant        | Frontend Dev  | nishant.kumar.cse.2024@miet.ac.in   |
 | Aanya          | UI/UX Design  | aanya.malik.cse.2024@miet.ac.in     |
 
-> ⚠️ Submission rule requires each dev's email in the README — fill in the real ones before submitting the repo link.
 
 **Snapdragon Multiverse Hackathon — Noida**
 
