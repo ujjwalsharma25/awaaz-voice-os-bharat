@@ -17,9 +17,9 @@ export const MOCK_USERS = {
     pincode:"842001",       rationCard:"BR-2023-44321",
     jobCard:"BR/MZF/002/0018", preferredLanguage:"hi", avatar:"👩‍🌾",
   },
-  "8868895500": {
-    name:"TUSHAR TYAGI",     nameHi:"तुषार त्यागी",
-    phone:"8868895500",     aadhaar:"XXXX XXXX 2345",
+  "9068200760": {
+    name:"Aastha Kaushik",     nameHi:"आस्था कौशिक",
+    phone:"9068200760",     aadhaar:"XXXX XXXX 2345",
     village:"KANKER KHERA",    villageHi:"कांकर खेड़ा",
     district:"MEERUT",   districtHi:"मेरठ",
     state:"UTTAR PRADESH",        stateHi:"उत्तर प्रदेश",
@@ -29,6 +29,15 @@ export const MOCK_USERS = {
   "76688 52397": {
     name:"NISHANT KUMAR",    nameHi:"निशांत कुमार",
     phone:"76688 52397",     aadhaar:"XXXX XXXX 6789",
+    village:"KANKER KHERA",    villageHi:"कांकर खेड़ा",
+    district:"BAGPAT",   districtHi:"बागपत",
+    state:"UTTAR PRADESH",     stateHi:"उत्तर प्रदेश",
+    pincode:"613001",       rationCard:"TN-2023-55678",
+    jobCard:"TN/TNJ/004/0023", preferredLanguage:"ta", avatar:"👩‍🌾",
+  },
+  "9389987053": {
+    name:"Aanya Malik",    nameHi:"आन्या मालिक",
+    phone:"9389987053",     aadhaar:"XXXX XXXX 6789",
     village:"KANKER KHERA",    villageHi:"कांकर खेड़ा",
     district:"BAGPAT",   districtHi:"बागपत",
     state:"UTTAR PRADESH",     stateHi:"उत्तर प्रदेश",
