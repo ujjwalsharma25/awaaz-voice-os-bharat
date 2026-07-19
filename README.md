@@ -7,7 +7,10 @@
 
 **Deployed App:** https://comforting-chaja-0b77cb.netlify.app/
 
-**Demo Video:** [YouTube/Drive link yaha]
+**Demo Video:** 
+"C:\Users\DELL\Downloads\WhatsApp Video 2026-07-19 at 12.32.31 PM.mp4"
+
+**This video showcases that our project is a real- life challenge and presents an innovative, practical solution.**
 
 ---
 
