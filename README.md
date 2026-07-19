@@ -1,7 +1,7 @@
 # 🎙️ AWAAZ — Voice OS for Bharat
 
 > **Voice-first government services for 300M illiterate Indians**
-> Team Vision Coders
+> Team Awaaz Os For India
 
 ---
 
@@ -17,9 +17,34 @@ India has over **300 million citizens who cannot read or write**, and every gove
 
 ## 📸 Screenshots
 
-| Language Selection | Mobile Login (OTP) | Voice Home |
-|---|---|---|
-| ![Language Selection](.C:\Users\DELL\Downloads\awaaz-voice-os-bharat\1-language-selection.png) | ![Mobile OTP Login](C:\Users\DELL\Downloads\awaaz-voice-os-bharat\2-mobile-otp-login.png) | ![Voice Home](C:\Users\DELL\Downloads\awaaz-voice-os-bharat\3-voice-home.png) |
+| Language Selection |
+|--------------------|
+<img width="1915" height="907" alt="1-language-selection" src="https://github.com/user-attachments/assets/5fd4f2b7-54b7-4a46-9d16-6eee65ddd3e2" />
+
+| Mobile Login |
+|--------------|
+<img width="1917" height="898" alt="2-mobile-otp-login" src="https://github.com/user-attachments/assets/6e7d2482-90d7-4cd4-9cbb-31376791019b" />
+
+| Home Page |
+|-----------|
+<img width="1792" height="907" alt="3-voice-home" src="https://github.com/user-attachments/assets/43f5c59d-ff27-4d8e-a310-80eda3aa4b64" />
+
+| Services Detect |
+|----------------|
+<img width="1748" height="896" alt="4-service-detected" src="https://github.com/user-attachments/assets/56d60b99-8e02-421b-bb28-898c61f218fc" />
+
+| Services Grid |
+|---------------|
+<img width="1907" height="905" alt="5-services-grid" src="https://github.com/user-attachments/assets/ecc95ded-4f34-427f-b1fd-7d57fe0375c8" />
+
+| Status Check |
+|--------------|
+<img width="1907" height="905" alt="5-services-grid" src="https://github.com/user-attachments/assets/9cd62bec-c86b-45f1-b945-5504b1ea3f93" />
+
+| Profile Page |
+|--------------|
+<img width="1916" height="907" alt="7-profile-page" src="https://github.com/user-attachments/assets/6a4a339f-1585-4b7d-aa75-248cd21b55c0" />
+
 
 | Service Detected (PM Kisan) | 12 Services Grid | Status Check |
 |---|---|---|
@@ -76,9 +101,7 @@ AWAAZ splits its intelligence across a simple two-part setup:
 | Component | Role | What runs there |
 |---|---|---|
 | 📱 **Mobile device** | Voice capture + citizen interaction | Web Speech API mic input, TTS voice replies in the citizen's own language. Sends only the raw transcript onward — no heavy compute here. |
-| 💻 **Laptop (Dell)** | On-device AI brain (edge) | Local LLM via **Ollama**, running locally on the laptop. Does intent detection, form auto-fill, and voice-reply generation — **fully offline**, no internet needed. This is the primary path for every request. |
-| ☁️ **Cloud fallback** | Escalation tier only, **OFF by default** | Only called if you explicitly turn it on (`ENABLE_CLOUD_FALLBACK=true`) — e.g. laptop unreachable or its confidence is low. Out of the box, zero external API calls of any kind are made — 100% free/local. |
-
+| 💻 **Laptop ** | On-device AI brain (edge) | Local LLM via **Ollama**, running locally on the laptop. Does intent detection, form auto-fill, and voice-reply generation — **fully offline**, no internet needed. This is the primary path for every request. |
 ```
 Citizen speaks (mobile)
         │  transcript only
@@ -323,23 +346,7 @@ Bhashini is the Government of India's free NLP/speech platform. Two separate pla
 | SMS              | Twilio WhatsApp/SMS                                                        |
 | Deployment       | Runs on local network for the demo; Vercel (frontend) + Railway (backend) for a public build |
 
----
 
-## 🌐 Deploy to Production
-
-### Frontend → Vercel
-```bash
-cd frontend
-npm run build
-# Upload dist/ to Vercel OR connect GitHub repo
-```
-Set env var: `VITE_API_URL=https://your-backend.railway.app/api`
-
-### Backend → Railway
-1. Push to GitHub
-2. New project on railway.app → Deploy from GitHub
-3. Add env variables from `.env`
-4. Done ✅
 
 ---
 
