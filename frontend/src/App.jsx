@@ -8,7 +8,7 @@ import StatusPage   from "./pages/StatusPage";
 import ProfilePage  from "./pages/ProfilePage";
 import Navbar       from "./components/Navbar";
 import OnlineStatus from "./components/OnlineStatus";
-import FloatingChatbot from "./components/FloatingChatbot";
+
 
 export default function App() {
   const [user,   setUser]   = useState(null);
@@ -67,7 +67,6 @@ export default function App() {
         <Route path="*"         element={<Navigate to="/" />} />
       </Routes>
       <Navbar lang={lang} />
-      <FloatingChatbot user={user} lang={lang} />
       <Toaster position="top-center"
         toastOptions={{ style:{ background:"#0F1A35", color:"#fff", border:"1px solid #1E3060" } }} />
     </div>
