@@ -19,30 +19,51 @@ India has over **300 million citizens who cannot read or write**, and every gove
 
 | Language Selection |
 |--------------------|
+
 <img width="1915" height="907" alt="1-language-selection" src="https://github.com/user-attachments/assets/5fd4f2b7-54b7-4a46-9d16-6eee65ddd3e2" />
+
 
 | Mobile Login |
 |--------------|
+
+
 <img width="1917" height="898" alt="2-mobile-otp-login" src="https://github.com/user-attachments/assets/6e7d2482-90d7-4cd4-9cbb-31376791019b" />
+
 
 | Home Page |
 |-----------|
+
+
 <img width="1792" height="907" alt="3-voice-home" src="https://github.com/user-attachments/assets/43f5c59d-ff27-4d8e-a310-80eda3aa4b64" />
+
 
 | Services Detect |
 |----------------|
+
+
 <img width="1748" height="896" alt="4-service-detected" src="https://github.com/user-attachments/assets/56d60b99-8e02-421b-bb28-898c61f218fc" />
+
+
 
 | Services Grid |
 |---------------|
+
+
 <img width="1907" height="905" alt="5-services-grid" src="https://github.com/user-attachments/assets/ecc95ded-4f34-427f-b1fd-7d57fe0375c8" />
+
+
 
 | Status Check |
 |--------------|
-<img width="1907" height="905" alt="5-services-grid" src="https://github.com/user-attachments/assets/9cd62bec-c86b-45f1-b945-5504b1ea3f93" />
+
+<img width="1907" height="905" alt="6-status-check" src="https://github.com/user-attachments/assets/661c50f7-db98-4dab-8cef-fa05eecfb471" />
+
+
 
 | Profile Page |
 |--------------|
+
+
 <img width="1916" height="907" alt="7-profile-page" src="https://github.com/user-attachments/assets/0c9d4c5e-5f9e-4a6b-a147-eb095b15814b" />
 
 ---
