@@ -43,17 +43,8 @@ India has over **300 million citizens who cannot read or write**, and every gove
 
 | Profile Page |
 |--------------|
-<img width="1916" height="907" alt="7-profile-page" src="https://github.com/user-attachments/assets/6a4a339f-1585-4b7d-aa75-248cd21b55c0" />
+<img width="1916" height="907" alt="7-profile-page" src="https://github.com/user-attachments/assets/0c9d4c5e-5f9e-4a6b-a147-eb095b15814b" />
 
-
-| Service Detected (PM Kisan) | 12 Services Grid | Status Check |
-|---|---|---|
-| ![Service Detected](C:\Users\DELL\Downloads\awaaz-voice-os-bharat\4-service-detected.png) | ![Services Grid](C:\Users\DELL\Downloads\awaaz-voice-os-bharat\5-services-grid.png) | ![Status Check](C:\Users\DELL\Downloads\awaaz-voice-os-bharat\6-status-check.png) |
-
-| Auto-Filled Profile |
-|---|
-| ![Profile Page](C:\Users\DELL\Downloads\awaaz-voice-os-bharat\7-profile-page.png) |
-and many more.
 ---
 
 ## 🚦 START HERE — Zero to Running (read this first)
