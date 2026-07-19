@@ -5,7 +5,7 @@
 
 ## 🚀 Live Demo
 
-**Deployed App:** comforting-chaja-0b77cb.netlify.app
+**Deployed App:** https://comforting-chaja-0b77cb.netlify.app/
 
 **Demo Video:** [YouTube/Drive link yaha]
 
