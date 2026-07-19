@@ -3,6 +3,12 @@
 > **Voice-first government services for 300M illiterate Indians**
 > Team Awaaz Os For India
 
+## 🚀 Live Demo
+
+**Deployed App:** comforting-chaja-0b77cb.netlify.app
+
+**Demo Video:** [YouTube/Drive link yaha]
+
 ---
 
 ## ❗ Problem Statement
