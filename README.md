@@ -20,7 +20,8 @@ India has over **300 million citizens who cannot read or write**, and every gove
 | Language Selection |
 |--------------------|
 
-<img width="1915" height="907" alt="1-language-selection" src="https://github.com/user-attachments/assets/5fd4f2b7-54b7-4a46-9d16-6eee65ddd3e2" />
+<img width="1915" height="907" alt="1-language-selection" src="https://github.com/user-attachments/assets/38341dff-b0e8-4595-9429-772cf6aea339" />
+
 
 
 | Mobile Login |
